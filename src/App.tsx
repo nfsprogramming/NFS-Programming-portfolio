@@ -6,6 +6,7 @@ import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
 import { GeminiAssistant } from './components/GeminiAssistant';
+import profileImg from './assets/profile.jpg';
 
 export default function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -45,23 +46,22 @@ export default function App() {
       />
 
       <Navbar />
-      
+
       <main>
         <Hero />
-        
+
         {/* About Section (Inline) */}
         <section id="about" className="py-32 px-8">
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="relative aspect-square rounded-3xl overflow-hidden group">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000" 
-                alt="Profile"
+              <img
+                src={profileImg}
+                alt="NFS Programming Profile"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-brand-accent/20 mix-blend-overlay group-hover:opacity-0 transition-opacity duration-500" />
             </div>
-            
+
             <div className="space-y-8">
               <span className="text-xs uppercase tracking-[0.4em] text-brand-muted block">The Story</span>
               <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase">
