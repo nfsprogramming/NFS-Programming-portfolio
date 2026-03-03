@@ -3,36 +3,52 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "Lumina Dashboard",
-    category: "Web Application",
-    description: "A high-performance analytics dashboard featuring real-time data visualization and complex filtering systems.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-    demo: "#",
-    repo: "#"
+    title: "Noteshare",
+    category: "HTML Project",
+    description: "A note-sharing project focused on simple collaboration and clean content presentation.",
+    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&q=80&w=1000",
+    demo: "https://github.com/nfsprogramming/Noteshare",
+    repo: "https://github.com/nfsprogramming/Noteshare"
   },
   {
-    title: "Ethereal Brand",
-    category: "Identity Design",
-    description: "Complete visual identity system for a luxury fashion brand, including logo, typography, and digital assets.",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1000",
-    demo: "#",
-    repo: "#"
+    title: "Smart Resume Analyzer",
+    category: "AI / NLP",
+    description: "AI-powered resume analysis tool that gives feedback on skills, relevance, formatting, and keyword optimization.",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=1000",
+    demo: "https://smartresumeanlyzer.streamlit.app/",
+    repo: "https://github.com/nfsprogramming/smartresumeanlyzer"
   },
   {
-    title: "Nexus Platform",
-    category: "Product Design",
-    description: "A collaborative workspace platform designed to streamline remote team workflows and communication.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000",
-    demo: "#",
-    repo: "#"
+    title: "NFS Programming Website",
+    category: "Python / Web",
+    description: "Personal brand site showcasing projects, learning path, and development work as NFS Programming.",
+    image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=1000",
+    demo: "https://nfs-programming.vercel.app",
+    repo: "https://github.com/nfsprogramming/nfs-programming"
   },
   {
-    title: "Aura Mobile",
-    category: "iOS App",
-    description: "A minimalist meditation and wellness app built with React Native, focusing on immersive audio experiences.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1000",
-    demo: "#",
-    repo: "#"
+    title: "QR & Business Card Generator",
+    category: "TypeScript Utility",
+    description: "Utility app that converts links into QR codes and supports quick business card style sharing.",
+    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&q=80&w=1000",
+    demo: "https://link-to-qr-and-business-card.vercel.app",
+    repo: "https://github.com/nfsprogramming/link-to-qr-and-business-card"
+  },
+  {
+    title: "Surprise Portfolio",
+    category: "JavaScript Portfolio",
+    description: "A creative personal portfolio project built with interactive visuals and modern frontend tooling.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000",
+    demo: "https://surprise-portfolio.vercel.app",
+    repo: "https://github.com/nfsprogramming/surprise-portfolio"
+  },
+  {
+    title: "Browser",
+    category: "TypeScript App",
+    description: "An experimental browser-focused project exploring features and interface behavior with TypeScript.",
+    image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&q=80&w=1000",
+    demo: "https://github.com/nfsprogramming/Browser",
+    repo: "https://github.com/nfsprogramming/Browser"
   }
 ];
 

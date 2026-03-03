@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
 
 const skills = [
-  { name: "React / Next.js", level: "95%" },
-  { name: "TypeScript", level: "90%" },
-  { name: "Tailwind CSS", level: "98%" },
-  { name: "Node.js", level: "85%" },
-  { name: "UI / UX Design", level: "92%" },
-  { name: "Three.js", level: "75%" },
+  { name: "Python", level: "90%" },
+  { name: "Machine Learning", level: "85%" },
+  { name: "Data Analysis", level: "88%" },
+  { name: "TypeScript / JavaScript", level: "84%" },
+  { name: "React", level: "80%" },
+  { name: "SQL", level: "78%" },
 ];
 
 export const Skills = () => {
@@ -17,8 +17,8 @@ export const Skills = () => {
           <span className="text-xs uppercase tracking-[0.4em] text-brand-muted mb-2 block">Capabilities</span>
           <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase mb-8">Skills & <br /><span className="text-editorial italic font-normal text-brand-accent lowercase">Expertise.</span></h2>
           <p className="text-brand-muted leading-relaxed max-w-md">
-            I specialize in building high-performance, accessible, and visually stunning web applications. 
-            My toolkit is constantly evolving to stay at the forefront of digital innovation.
+            My focus is AI and data science engineering with practical full-stack implementation.
+            I keep improving through project-based learning and real deployments.
           </p>
         </div>
 

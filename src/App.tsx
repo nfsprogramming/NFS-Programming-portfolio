@@ -68,17 +68,18 @@ export default function App() {
                 About <br /><span className="text-editorial italic font-normal text-brand-accent lowercase">Myself.</span>
               </h2>
               <p className="text-xl text-brand-muted leading-relaxed">
-                I am a multidisciplinary developer focused on building digital products that bridge the gap between aesthetics and functionality. 
-                With over 5 years of experience, I've collaborated with global brands to create memorable digital experiences.
+                I am Nifras, building as NFS Programming. I am an AI and Data Science engineering student
+                who enjoys turning ideas into practical products. My work focuses on machine learning,
+                intelligent automation, and modern web experiences that solve real user problems.
               </p>
               <div className="grid grid-cols-2 gap-8 pt-8">
                 <div>
                   <h4 className="text-xs uppercase tracking-widest text-brand-muted mb-2">Location</h4>
-                  <p className="font-medium">San Francisco, CA</p>
+                  <p className="font-medium">Open to Remote Opportunities</p>
                 </div>
                 <div>
                   <h4 className="text-xs uppercase tracking-widest text-brand-muted mb-2">Experience</h4>
-                  <p className="font-medium">5+ Years</p>
+                  <p className="font-medium">Student</p>
                 </div>
               </div>
             </div>

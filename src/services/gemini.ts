@@ -1,10 +1,32 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || '' });
+const apiKey =
+  import.meta.env.VITE_GEMINI_API_KEY ||
+  import.meta.env.GEMINI_API_KEY ||
+  "";
+
+let ai: GoogleGenAI | null = null;
+
+function getClient() {
+  if (!apiKey) {
+    return null;
+  }
+
+  if (!ai) {
+    ai = new GoogleGenAI({ apiKey });
+  }
+
+  return ai;
+}
 
 export async function generatePortfolioContent(prompt: string) {
+  const client = getClient();
+  if (!client) {
+    return "Gemini API key is missing. Add it in .env.local and restart the dev server.";
+  }
+
   try {
-    const response = await ai.models.generateContent({
+    const response = await client.models.generateContent({
       model: "gemini-2.0-flash",
       contents: prompt,
       config: {

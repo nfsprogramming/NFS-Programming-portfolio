@@ -11,17 +11,16 @@ export const Hero = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="max-w-7xl mx-auto w-full"
       >
-        <span className="text-xs uppercase tracking-[0.4em] text-brand-muted mb-4 block">Creative Developer & Designer</span>
+        <span className="text-xs uppercase tracking-[0.4em] text-brand-muted mb-4 block">AI & DS Engineer | Student</span>
         <h1 className="text-[15vw] md:text-[12vw] leading-[0.85] font-bold tracking-tighter uppercase mb-8">
-          Crafting <br />
-          <span className="text-editorial font-normal lowercase italic text-brand-accent">Digital</span> <br />
-          Aura.
+          NFS <br />
+          <span className="text-editorial font-normal lowercase italic text-brand-accent">Programming</span>
         </h1>
         
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-8">
           <p className="max-w-md text-lg text-brand-muted leading-relaxed">
-            Building immersive experiences at the intersection of design and technology. 
-            Focused on creating interfaces that feel as good as they look.
+            I build practical AI and data-driven applications with clean user experiences.
+            I am currently a student, focused on real-world projects and continuous learning.
           </p>
           
           <motion.div 
